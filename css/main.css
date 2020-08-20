@@ -1,0 +1,101 @@
+html {
+    box-sizing: border-box;
+    font-size: 2rem;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  
+  /* base */
+  img {
+    max-width: 100%;
+  }
+  nav {
+    display: grid;
+    grid-template-columns: 1.6fr 0.7fr repeat(2, 0.6fr) 1.5fr 1fr;
+    grid-template-rows: 1.5fr;
+    gap: 20px 20px;
+    grid-template-areas: ". . . . . .";
+    text-align: center;
+    justify-items: center;
+    margin-bottom: 20px;
+  }
+  a {
+      font-size: 25px;
+  }
+  nav a {
+    text-decoration: none;
+    color: grey;  
+  }
+  main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.9fr 1.2fr 1.1fr 0.8fr;
+    gap: 100px 1px;
+    grid-template-areas: "." "." "." ".";
+  }
+  #container1 {
+        display: grid;
+        grid-template-columns: 0.9fr 0.1fr 2.2fr;
+        grid-template-rows: 1fr;
+        grid-template-areas: ". . .";
+  }
+  .item {
+    text-align: center;
+  }
+  .item1 {
+    display: grid;
+    grid-template-columns: 0.9fr;
+    grid-template-rows: 0.9fr 1.3fr 0.8fr;
+    grid-template-areas: "." "." ".";
+    align-items: center;
+    text-align: justify;
+    margin-left: 15px;
+    font-size: 25px;
+  }
+  .item2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.9fr 1.7fr 0.5fr;
+    gap: 1px 1px;
+    grid-template-areas: "." "." ".";
+  }
+  .item222 {
+      background-color: #00061E;
+  }
+  .item3 img {
+      height: 100%;
+  }
+  #container2 {        
+    display: grid;
+    grid-template-columns: 1.1fr 0.8fr 1.1fr;
+    grid-template-rows: 1.5fr 0.7fr;
+    gap: 20px 20px;
+   grid-template-areas: ". . ." ". . ."
+  }
+  .tem {
+      text-align: center;
+      justify-items: center;
+  }
+  button{
+      align-content: center;
+      align-items: center;
+      justify-items: center;
+  }
+.vermas {
+    border-radius: 70px;
+    height: 40px;
+    line-height: 10px;
+    color: black;
+    width: 250px;
+    font-size: 31px;
+    background-color: #FAFAFA;
+    border: solid #000000 3px;
+    text-decoration: none;
+}
+.vermas img {
+    padding-left: 15px;
+}
